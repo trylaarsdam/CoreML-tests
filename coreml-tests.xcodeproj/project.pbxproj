@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		332270DF28625E2C00419D9C /* coreml_testsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332270DE28625E2C00419D9C /* coreml_testsApp.swift */; };
+		332270DF28625E2C00419D9C /* CoreMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332270DE28625E2C00419D9C /* CoreMLTests.swift */; };
 		332270E128625E2C00419D9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332270E028625E2C00419D9C /* ContentView.swift */; };
 		332270E328625E2D00419D9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332270E228625E2D00419D9C /* Assets.xcassets */; };
 		332270E628625E2D00419D9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332270E528625E2D00419D9C /* Preview Assets.xcassets */; };
+		332270F1286260B300419D9C /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 332270F0286260B300419D9C /* MobileNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		332270DB28625E2C00419D9C /* coreml-tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coreml-tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		332270DE28625E2C00419D9C /* coreml_testsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreml_testsApp.swift; sourceTree = "<group>"; };
+		332270DE28625E2C00419D9C /* CoreMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLTests.swift; sourceTree = "<group>"; };
 		332270E028625E2C00419D9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		332270E228625E2D00419D9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		332270E528625E2D00419D9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		332270F0286260B300419D9C /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,8 @@
 		332270DD28625E2C00419D9C /* coreml-tests */ = {
 			isa = PBXGroup;
 			children = (
-				332270DE28625E2C00419D9C /* coreml_testsApp.swift */,
+				332270F0286260B300419D9C /* MobileNet.mlmodel */,
+				332270DE28625E2C00419D9C /* CoreMLTests.swift */,
 				332270E028625E2C00419D9C /* ContentView.swift */,
 				332270E228625E2D00419D9C /* Assets.xcassets */,
 				332270E428625E2D00419D9C /* Preview Content */,
@@ -138,7 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				332270E128625E2C00419D9C /* ContentView.swift in Sources */,
-				332270DF28625E2C00419D9C /* coreml_testsApp.swift in Sources */,
+				332270DF28625E2C00419D9C /* CoreMLTests.swift in Sources */,
+				332270F1286260B300419D9C /* MobileNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
