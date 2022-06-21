@@ -12,6 +12,7 @@
 		332270E328625E2D00419D9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332270E228625E2D00419D9C /* Assets.xcassets */; };
 		332270E628625E2D00419D9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332270E528625E2D00419D9C /* Preview Assets.xcassets */; };
 		332270F1286260B300419D9C /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 332270F0286260B300419D9C /* MobileNet.mlmodel */; };
+		332270F3286264EA00419D9C /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 332270F2286264E900419D9C /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		332270E228625E2D00419D9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		332270E528625E2D00419D9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		332270F0286260B300419D9C /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		332270F2286264E900419D9C /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				332270F0286260B300419D9C /* MobileNet.mlmodel */,
 				332270DE28625E2C00419D9C /* CoreMLTests.swift */,
 				332270E028625E2C00419D9C /* ContentView.swift */,
+				332270F2286264E900419D9C /* SleepCalculator.mlmodel */,
 				332270E228625E2D00419D9C /* Assets.xcassets */,
 				332270E428625E2D00419D9C /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				332270E128625E2C00419D9C /* ContentView.swift in Sources */,
 				332270DF28625E2C00419D9C /* CoreMLTests.swift in Sources */,
+				332270F3286264EA00419D9C /* SleepCalculator.mlmodel in Sources */,
 				332270F1286260B300419D9C /* MobileNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
